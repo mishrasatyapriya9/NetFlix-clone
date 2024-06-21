@@ -1,0 +1,80 @@
+.Login {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6) 40%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../../assets/navbar/netflix-collection.jpg);
+  object-fit: cover;
+  position: relative;
+  .top {
+    .wrapper {
+      padding: 30px 50px;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+
+      img {
+        height: 50px;
+        width: 140px;
+      }
+    }
+  }
+  .conatiner {
+    width: 100%;
+    height: 100%;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    form {
+      cursor: pointer;
+      height: 300px;
+      width: 300px;
+      border-radius: 5px;
+      background-color: var(--main-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      input {
+        height: 40px;
+        border-radius: 5px;
+        background-color: grey;
+        color: white;
+        padding-left: 10px;
+        cursor: pointer;
+        &::placeholder {
+          color: white;
+          font-size: 17px;
+          font-weight: 600;
+        }
+      }
+      button {
+        height: 40px;
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: 1px solid red;
+        cursor: pointer;
+        width: 10vh;
+        cursor: pointer;
+      }
+      span {
+        color: lightgray;
+      }
+      .small {
+        color: white;
+      }
+    }
+  }
+}

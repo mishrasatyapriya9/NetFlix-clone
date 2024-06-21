@@ -1,0 +1,29 @@
+.watch{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    // here position i added
+    .back{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        color: white;
+        cursor: pointer;
+        z-index: 2;
+        .arrow{
+            color: white;
+        }
+        span{
+            color: white;
+            font-size: 30px;
+            font-weight: 800;
+        }
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
